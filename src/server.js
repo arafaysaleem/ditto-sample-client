@@ -19,7 +19,7 @@ const getThing = async(thingId) => {
 const getSensorData = () => {
     return {
         voltage: Math.floor(Math.random() * (240 - 1) + 1),
-        current: Math.floor(Math.random() * (100 - 1) + 1),
+        humidity: Math.floor(Math.random() * (100 - 1) + 1),
         temperature: Math.floor(Math.random() * (40 - 20) + 20)
     };
 };
